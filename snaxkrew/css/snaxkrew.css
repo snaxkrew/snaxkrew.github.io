@@ -219,7 +219,7 @@ form {
   color: rgb(0, 155, 255);
   text-shadow: rgb(0, 155, 255) 1px 0px 0px,
     #000000 3px 3px 5px,
-    rgba(255, 255, 255, 0.4) 0px 0px 10px
+    rgba(255, 255, 255, 0.2) 0px 0px 10px
 }
 
 .center .inner:first-child {
