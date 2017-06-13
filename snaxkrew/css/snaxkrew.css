@@ -48,7 +48,7 @@ html {
 }
 
 body {
-  padding: 40px 0px;
+  padding: 30px 0px;
   box-sizing: border-box !important;
   color:#ffecec !important;
   font-family: 'Open Sans', sans-serif;
@@ -97,6 +97,7 @@ p {
 }
 
 a {
+  cursor: pointer;
   text-decoration: none;
   color: #007edf;
   text-shadow: none;
@@ -129,13 +130,7 @@ img {
   -ms-user-select:none;
   user-select:none;
   position: relative;
-  /*margin: 0 auto;*/
   max-width: 739px;
-  /*box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;*/
 }
 
 p img {
@@ -551,16 +546,16 @@ img.up-arrow {
 .games, .footer {
   display:flex;
   flex-wrap: wrap;
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none;
 }
 
 .footer {
-  max-width: 90%;
+  align-items: center;
   justify-content: center;
   padding: 0px 10px;
+}
+
+.footer a {
+  margin: 0 20px;
 }
 
 @font-face {
@@ -576,6 +571,23 @@ img.up-arrow {
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
+@media screen and (max-width: 400px) {
+  .logo {
+    height: 130px;
+  }
+
+  .footer a {
+    margin: 0 10px;
+  }
+
+  .footer a:first-child img{
+    height: 50px;
+  }
+
+  .footer a img {
+    height: 40px;
+  }
+}
 
 @media screen and (max-width: 600px) {
   body {
