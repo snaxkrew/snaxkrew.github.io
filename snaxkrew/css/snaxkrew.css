@@ -217,29 +217,14 @@ form {
   text-shadow: #111 0px 5px 10px;
 }
 
-/*Orange*/
-  /*color: #ff6000;
-  text-shadow: #ff6000 1px 0px 0px, #000000 3px 3px 5px, rgba(255, 255, 255, 0.2) 0px 0px 10px;
-*/
-
-/*Green*/
-   /* color: rgb(10, 179, 0);
-    text-shadow: rgb(10, 179, 0) 1px 0px 0px, #000000 3px 3px 5px, rgba(255, 255, 255, 0.2) 0px 0px 10px;
-*/
-
-/*Yellow*/
-/*color: rgb(197, 218, 40);
-text-shadow: rgb(197, 218, 40) 1px 0px 0px, #000000 3px 3px 5px, rgba(255, 255, 255, 0.2) 0px 0px 10px;
-*/
 .twitter-feed .section_title,
 .snax-pros .section_title,
 .prog-system .section_title,
 .games .section_title {
   color: rgb(0, 155, 255);
-  /*color: rgb(0, 135, 255);*/
   text-shadow: rgb(0, 155, 255) 1px 0px 0px,
     #000000 3px 3px 5px,
-    rgba(255, 255, 255, 0.2) 0px 0px 10px
+    rgba(255, 255, 255, 0.4) 0px 0px 10px
 }
 
 .center .inner:first-child {
@@ -347,7 +332,7 @@ div.content-box.discord img:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -360,7 +345,6 @@ div.content-box.discord img:hover {
 }
 
 .flex-wrapper.prog-games {
-  max-width: 1200px;
   margin-top: 30px;
 }
 
