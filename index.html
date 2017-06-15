@@ -8,8 +8,12 @@
     <meta name="title" content="SNAXKREW - Gamming community">
     <meta name="description" content="SNAXKREW is an open gaming community founded in October 2014, now going almost 3 years strong.">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="snaxkrew/css/snaxkrew.css">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="snaxkrew/css/snaxkrew.css"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="snaxkrew/css/snaxkrew.min.css">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="snaxkrew/css/countdown.css"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="snaxkrew/css/countdown.min.css">
     <script src="snaxkrew/js/lazysizes.min.js" async=""></script>
+    <script src="snaxkrew/js/countdown.min.js" async=""></script>
 
     <title>SNAXKREW - Gamming community</title>
   </head>
@@ -22,7 +26,7 @@
         <!-- MAIN CONTENT -->
         <div class="center outer">
           <div class="inner">
-            <img class="logo lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/snaxbanner.png" height="153"/>
+            <img class="logo lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/snaxbanner.png" height="153" title="SnaxKrew"/>
           </div>
 
           <!-- INTRODUCTION -->
@@ -33,9 +37,34 @@
 
           <div class="content-box discord">
             <h4 class="section_title">Join our voice & text chat server!</h4>
-            <a href="//discord.me/snax">
-              <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/discord.svg" style="height: 90px;"/>
+            <a href="//discord.me/snax" target="_blank">
+              <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/discord.svg" style="height: 90px;" title="Join our Discord server!"/>
             </a>
+          </div>
+
+          <div class="content-box mxm">
+            <h4 class="section_title">MXM launches June 21!</h4>
+            <a href="https://www.playmxm.com/" target="_blank">
+              <img class="mxm lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/mxm.png" title="Master X Master"/>
+            </a>
+            <div id="countdown-timer">
+              <div class="days">
+                <span class="days-number"></span>
+                <span class="days-label">Days</span>
+              </div>
+              <div class="hours">
+                <span class="hours-number"></span>
+                <span class="hours-label">Hous</span>
+              </div>
+              <div class="minutes">
+                <span class="minutes-number"></span>
+                <span class="minutes-label">Minutes</span>
+              </div>
+              <div class="seconds">
+                <span class="seconds-number"></span>
+                <span class="seconds-label">Seconds</span>
+              </div>
+            </div>
           </div>
 
           <div class="flex-wrapper">
@@ -44,31 +73,31 @@
               <h1 class="section_title">Why join us?</h1>
               <div>
                 <div class="pro">
-                  <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/discord-small.svg"/>
+                  <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/discord-small.svg"/ title="Discord">
                   <span>Discord server with the best bots and emotes</span>
                 </div>
                 <div class="pro">
-                  <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/pros/night-events.svg"/>
+                  <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/pros/night-events.svg" title="Night Events"/>
                   <span>Weekly game nights featuring games voted for by the community</span>
                 </div>
                 <div class="pro">
-                  <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/pros/community.svg"/>
+                  <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/pros/community.svg" title="Community"/>
                   <span>Awesome community with great people</span>
                 </div>
                 <div class="pro">
-                  <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/pros/games.svg"/>
+                  <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/pros/games.svg"/ title="Games">
                   <span>We play dozens of games, both for fun and/or at a competitive level</span>
                 </div>
                 <div class="pro">
-                  <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/pros/agreement.svg"/>
+                  <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/pros/agreement.svg" title="Friends"/>
                   <span>Everyone is welcome, bring your friends!</span>
                 </div>
                 <div class="pro">
-                  <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/pros/plus-18.svg"/>
+                  <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/pros/plus-18.svg"/ title="Mature">
                   <span>This is a mature community and being age 18+ is encouraged</span>
                 </div>
                 <div class="pro">
-                  <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/pros/premium-badge.svg"/>
+                  <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/pros/premium-badge.svg"/ title="Ranks">
                   <span>Earn higher ranks the more you play and active you are</span>
                 </div>
               </div>
@@ -92,9 +121,9 @@
                 <section>
                   <div class="rank">
                     <div class="rank-title">
-                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/officer.svg" height="25"/>
+                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/officer.svg" height="25"/ title="Officer">
                       <span>Officer</span>
-                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/officer.svg" height="25"/>
+                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/officer.svg" height="25"/ title="Officer">
                     </div>
                     <span class="rank-desc">
                       <ul>
@@ -102,12 +131,12 @@
                       </ul>
                     </span>
                   </div>
-                  <img class="up-arrow lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/up-arrow.svg" height="30"></img>
+                  <img class="up-arrow lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/up-arrow.svg" height="30" title="Arrow"></img>
                   <div class="rank">
                     <div class="rank-title">
-                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/elite.svg" height="25"/>
+                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/elite.svg" height="25"/ title="Elite">
                       <span>Elite</span>
-                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/elite.svg" height="25"/>
+                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/elite.svg" height="25"/ title="Elite">
                     </div>
                     <span class="rank-desc">
                       <ul>
@@ -116,12 +145,12 @@
                       </ul>
                     </span>
                   </div>
-                  <img class="up-arrow lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/up-arrow.svg" height="30"></img>
+                  <img class="up-arrow lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/up-arrow.svg" height="30" title="Arrow"></img>
                   <div class="rank">
                     <div class="rank-title unnamed">
-                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/unnamed.svg" height="25"/>
+                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/unnamed.svg" height="25" title="***"/>
                       <span>***</span>
-                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/unnamed.svg" height="25"/>
+                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/unnamed.svg" height="25" title="***"/>
                     </div>
                     <span class="rank-desc">
                       <ul>
@@ -130,12 +159,12 @@
                       </ul>
                     </span>
                   </div>
-                  <img class="up-arrow lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/up-arrow.svg" height="30"></img>
+                  <img class="up-arrow lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/up-arrow.svg" height="30" title="Arrow"></img>
                   <div class="rank">
                     <div class="rank-title">
-                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/core.svg" height="25"/>
+                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/core.svg" height="25" title="Core"/>
                       <span>Core</span>
-                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/core.svg" height="25"/>
+                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/core.svg" height="25" title="Core"/>
                     </div>
                     <div class="rank-desc">
                       <ul>
@@ -143,12 +172,12 @@
                       </ul>
                     </div>
                   </div>
-                  <img class="up-arrow lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/up-arrow.svg" height="30"></img>
+                  <img class="up-arrow lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/up-arrow.svg" height="30" title="Arrow"></img>
                   <div class="rank">
                     <div class="rank-title">
-                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/recruit.svg" height="25"/>
+                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/recruit.svg" height="25" title="Recruit"/>
                       <span>Recruit</span>
-                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/recruit.svg" height="25"/>
+                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/recruit.svg" height="25" title="Recruit"/>
                     </div>
 
                     <div class="rank-desc">
@@ -157,12 +186,12 @@
                       </ul>
                     </div>
                   </div>
-                  <img class="up-arrow lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/up-arrow.svg" height="30"></img>
+                  <img class="up-arrow lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/up-arrow.svg" height="30" title="Arrow"></img>
                   <div class="rank">
                     <div class="rank-title">
-                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/initiate.svg" height="25"/>
+                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/initiate.svg" height="25" title="Initiate"/>
                       <span>Initiate</span>
-                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/initiate.svg" height="25"/>
+                      <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/initiate.svg" height="25" title="Initiate"/>
                     </div>
 
                     <div class="rank-desc">
@@ -177,15 +206,15 @@
               <div class="games">
                 <h1 class="section_title">Games we play</h1>
                 <section class="inner">
-                    <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/overwatch.png" height="80"/>
-                    <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/hots.png" height="90"/>
-                    <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/pubg.png" height="100"/>
-                    <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/rl.png" height="100"/>
-                    <img class="mxm lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/mxm.png" height="70"/>
-                    <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/omdu.png" height="80"/>
-                    <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/tts.png" height="100"/>
-                    <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/ar.png" height="80"/>
-                    <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/armello.png" height="80"/>
+                    <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/overwatch.png" height="80" title="Overwatch"/>
+                    <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/hots.png" height="90" title="Heroes of the Storm"/>
+                    <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/pubg.png" height="100" title="PLAYERUNKNOWN'S BATTLEGROUNDS"/>
+                    <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/rl.png" height="100" title="Rocket League"/>
+                    <img class="mxm lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/mxm.png" height="70" title="Master X Master"/>
+                    <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/omdu.png" height="80" title="Orcs Must Die! Unchained"/>
+                    <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/tts.png" height="100" title="Tabletop Simulator"/>
+                    <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/ar.png" height="80" title="Atlas Reactor"/>
+                    <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/armello.png" height="80" title="Armello"/>
                 </section>
               </div>
             </div>
@@ -194,17 +223,17 @@
           <div class="content-box">
             <h1 class="section_title">Join us on</h1>
             <section class="footer">
-              <a href="//discord.me/snax">
-                <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/discord-small.svg" height="60"/>
+              <a href="//discord.me/snax" target="_blank">
+                <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/discord-small.svg" height="60" title="Discord"/>
               </a>
-              <a href="https://twitter.com/snaxkr3w">
-                <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/twitter.svg" height="50"/>
+              <a href="https://twitter.com/snaxkr3w" target="_blank">
+                <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/twitter.svg" height="50" title="Twitter"/>
               </a>
-              <a href="https://www.facebook.com/snaxgaming">
-                <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/facebook.png" height="50"/>
+              <a href="https://www.facebook.com/snaxgaming" target="_blank">
+                <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/facebook.png" height="50" title="Facebook"/>
               </a>
-              <a href="https://www.youtube.com/channel/UCqE1nXJBnNuZThoeNG9618Q/videos">
-                <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/youtube.png" height="50"/>
+              <a href="https://www.youtube.com/channel/UCqE1nXJBnNuZThoeNG9618Q/videos" target="_blank">
+                <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/youtube.png" height="50" title="Youtube"/>
               </a>
             </section>
           </div>
