@@ -219,7 +219,7 @@ form {
   color: rgb(0, 155, 255);
   text-shadow: rgb(0, 155, 255) 1px 0px 0px,
     #000000 3px 3px 5px,
-    rgba(255, 255, 255, 0.2) 0px 0px 10px
+    rgba(255, 255, 255, 0.2) 0px 0px 10px;
 }
 
 .center .inner:first-child {
@@ -398,6 +398,10 @@ div.content-box.discord img:hover {
   padding: 5px 10px;
   border-radius: 15px;
   cursor: pointer;
+}
+
+.prog-system .section_title {
+  margin-bottom: 10px;
 }
 
 label:hover {
