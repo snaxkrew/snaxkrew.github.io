@@ -545,6 +545,14 @@ img.up-arrow {
 Small Device Styles
 *******************************************************************************/
 @media screen and (max-width: 400px) {
+  .content-box.discord .section_title {
+    font-size: 18px;
+  }
+  
+  .content-box.mxm .section_title {
+    font-size: 25px;
+  }
+
   .logo {
     height: 130px;
   }
