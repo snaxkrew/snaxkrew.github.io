@@ -315,6 +315,10 @@ form {
   100% {box-shadow: 0px 0px 0px 0px white;}
 }
 
+div.content-box.discord {
+  margin-top: 20px;
+}
+
 div.content-box.discord a {
   width: 270px;
   margin: 0 auto;
@@ -345,12 +349,10 @@ div.content-box.discord img:hover {
   font-size: 15px;
 }
 
-.snax-pros, .twitter-feed {
-  margin-top: 30px
-}
-
+.snax-pros,
+.twitter-feed,
 .flex-wrapper.prog-games {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .snax-pros .pro {

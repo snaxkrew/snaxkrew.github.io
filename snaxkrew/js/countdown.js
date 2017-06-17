@@ -1,7 +1,10 @@
 // Set the date we're counting down to
-var countDownDate = new Date("June 21, 2017 00:00:00").getTime();
-// var countDownDate = new Date("June 15, 2017 00:00:00").getTime();
+var countDownDate = new Date("June 21, 2017 10:00:00 PDT").getTime();
 var countdownTimer = document.getElementById("countdown-timer");
+var daysNumber = countdownTimer.getElementsByClassName("days-number")[0];
+var hoursNumber = countdownTimer.getElementsByClassName("hours-number")[0];
+var minutesNumber = countdownTimer.getElementsByClassName("minutes-number")[0];
+var secondsNumber = countdownTimer.getElementsByClassName("seconds-number")[0];
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -18,16 +21,25 @@ var x = setInterval(function() {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
-    // Output the result in an element with id="demo"
-    countdownTimer.getElementsByClassName("days-number")[0].innerHTML = days;
-    countdownTimer.getElementsByClassName("hours-number")[0].innerHTML = hours;
-    countdownTimer.getElementsByClassName("minutes-number")[0].innerHTML = minutes;
-    countdownTimer.getElementsByClassName("seconds-number")[0].innerHTML = seconds;
-    
     // If the count down is over, write some text 
-    if (distance < 0) {
+    if (distance <= 1000) {
+        // Output the result in an element with id="demo"
+        daysNumber.innerHTML = 0;
+        hoursNumber.innerHTML = 0;
+        minutesNumber.innerHTML = 0;
+        secondsNumber.innerHTML = 0;
         clearInterval(x);
-        countdownTimer.innerHTML = "MXM launches today!";
+        countdownTimer.style.opacity = 0;
+        setTimeout(function() {
+            countdownTimer.innerHTML = "<span class='time-over'>The gates are open</span>";
+            countdownTimer.style.opacity = 1;
+        }, 2500);
+    } else {
+        // Output the result in an element with id="demo"
+        daysNumber.innerHTML = days;
+        hoursNumber.innerHTML = hours;
+        minutesNumber.innerHTML = minutes;
+        secondsNumber.innerHTML = seconds;
     }
 }, 1000);
 
