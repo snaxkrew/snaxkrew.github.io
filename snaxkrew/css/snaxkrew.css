@@ -281,6 +281,7 @@ div.content-box.discord a {
 }
 
 div.content-box.discord img {
+  height: 90px;
   cursor: pointer;
   border-radius: 20px;
   -webkit-animation: circle-fade 2s infinite linear;
