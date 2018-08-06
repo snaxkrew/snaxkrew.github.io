@@ -134,15 +134,13 @@ form {
 }
 
 @font-face {
-  font-family: "Open Sans Regular";
-  font-weight: 400;
+  font-family: "OpenSans-Regular";
   src: url("../fonts/OpenSans-Regular.ttf") format('truetype'); /* TTF file for CSS3 browsers */
   font-display: swap;
 }
 
 @font-face {
-  font-family:"Josefin Sans Regular";
-  font-weight: 400;
+  font-family:"JosefinSans-Regular";
   src: url("../fonts/JosefinSans-Regular.ttf") format('truetype'); /* TTF file for CSS3 browsers */
   font-display: swap;
 }
