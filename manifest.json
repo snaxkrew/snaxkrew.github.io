@@ -1,0 +1,16 @@
+{
+  "short_name": "Snaxkrew",
+  "name": "Snaxkrew - Gaming Community",
+  "icons": [
+    {
+      "src": "snaxkrew/imgs/snaxbanner.png",
+      "type": "image/png",
+      "sizes": "133x153"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6"
+}
