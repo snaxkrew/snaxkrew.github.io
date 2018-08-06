@@ -40,6 +40,7 @@ Theme Styles
 
 html {
   height: 100%;
+  font-family: 'Open Sans Regular', sans-serif;
 }
 
 body {
@@ -134,14 +135,8 @@ form {
 }
 
 @font-face {
-  font-family: "OpenSans-Regular";
+  font-family: "Open Sans";
   src: url("../fonts/OpenSans-Regular.ttf") format('truetype'); /* TTF file for CSS3 browsers */
-  font-display: swap;
-}
-
-@font-face {
-  font-family:"JosefinSans-Regular";
-  src: url("../fonts/JosefinSans-Regular.ttf") format('truetype'); /* TTF file for CSS3 browsers */
   font-display: swap;
 }
 
