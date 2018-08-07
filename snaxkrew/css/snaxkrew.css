@@ -134,6 +134,12 @@ form {
   padding: 20px;
 }
 
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.ttf") format('truetype'); /* TTF file for CSS3 browsers */
+  font-display: swap;
+}
+
 .content-wrapper {
   display: flex;
   align-items: center;
