@@ -8,7 +8,7 @@ self.addEventListener('install', function(e) {
 				'/',
 				'/index.html',
 				'/snaxkrew/css/snaxkrew.min.css',
-				'/snaxkrew/js/lazysizes.min.css',
+				'/snaxkrew/js/lazysizes.min.js',
 				'/snaxkrew/fonts/OpenSans-Regular.ttf',
 				'/snaxkrew/imgs/grey_background.jpg',
 				'/snaxkrew/imgs/snaxbanner.png',
