@@ -4,10 +4,11 @@ var CACHE_NAME = 'snaxkrew-v1';
 self.addEventListener('install', function(e) {
 	e.waitUntil(
 		caches.open('CACHE_NAME').then(function(cache) {
-			return cache.addAll([
+			cache.addAll([
 				'/',
 				'/index.html',
 				'/snaxkrew/css/snaxkrew.min.css',
+				'/snaxkrew/js/lazysizes.min.css',
 				'/snaxkrew/fonts/OpenSans-Regular.ttf',
 				'/snaxkrew/imgs/grey_background.jpg',
 				'/snaxkrew/imgs/snaxbanner.png',
@@ -42,6 +43,17 @@ self.addEventListener('install', function(e) {
 				'/snaxkrew/imgs/social/twitter.svg',
 				'/snaxkrew/imgs/social/youtube.png'
 			]);
+
+			// CORS
+			let urlsToPrefetch = [
+				'https://platform.twitter.com/widgets.js',
+				'https://www.google-analytics.com/analytics.js'
+			];
+			cache.addAll(urlsToPrefetch.map(function(urlToPrefetch) {
+			  return new Request(urlToPrefetch, { mode: 'no-cors' });
+			}));
+
+			return;
 		})
 	);
 });
@@ -60,3 +72,4 @@ self.addEventListener('fetch', function(event) {
 		})
 	);
 });
+
