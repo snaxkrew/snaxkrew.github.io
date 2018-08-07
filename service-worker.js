@@ -1,4 +1,4 @@
-var CACHE_NAME = 'snaxkrew-v2';
+var CACHE_NAME = 'snaxkrew-v3';
 
 // Register service worker
 self.addEventListener('install', function(e) {
