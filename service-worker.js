@@ -1,4 +1,4 @@
-var CACHE_NAME = 'snaxkrew-v1';
+var CACHE_NAME = 'snaxkrew-v2';
 
 // Register service worker
 self.addEventListener('install', function(e) {
@@ -24,6 +24,7 @@ self.addEventListener('install', function(e) {
 				'/snaxkrew/imgs/games/r6siege.png',
 				'/snaxkrew/imgs/games/rl.png',
 				'/snaxkrew/imgs/games/strife.jpg',
+				'/snaxkrew/imgs/games/tts.png',
 				'/snaxkrew/imgs/pros/agreement.svg',
 				'/snaxkrew/imgs/pros/community.svg',
 				'/snaxkrew/imgs/pros/games.svg',
