@@ -46,13 +46,13 @@ self.addEventListener('install', function(e) {
 			]);
 
 			// CORS
-			let urlsToPrefetch = [
-				'https://platform.twitter.com/widgets.js',
-				'https://www.google-analytics.com/analytics.js'
-			];
-			cache.addAll(urlsToPrefetch.map(function(urlToPrefetch) {
-			  return new Request(urlToPrefetch, { mode: 'no-cors' });
-			}));
+			// let urlsToPrefetch = [
+			// 	'https://platform.twitter.com/widgets.js',
+			// 	'https://www.google-analytics.com/analytics.js'
+			// ];
+			// cache.addAll(urlsToPrefetch.map(function(urlToPrefetch) {
+			//   return new Request(urlToPrefetch, { mode: 'no-cors' });
+			// }));
 
 			return;
 		})
