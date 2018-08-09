@@ -1,21 +1,26 @@
 {
-  "short_name": "Snaxkrew",
-  "name": "Snaxkrew - Gaming Community",
-  "icons": [
-    {
-      "src": "snaxkrew/imgs/manifest_icon_192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "snaxkrew/imgs/manifest_icon_512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": "/",
-  "background_color": "#009bff",
-  "display": "standalone",
-  "scope": "/",
-  "theme_color": "#009bff"
+	"short_name": "Snaxkrew",
+	"name": "Snaxkrew - Gaming Community",
+	"icons": [
+		{
+			"src": "snaxkrew/imgs/favicons/android-chrome-144x144.png",
+			"sizes": "144x144",
+			"type": "image/png"
+		},
+		{
+			"src": "snaxkrew/imgs/favicons/manifest_icon_192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "snaxkrew/imgs/favicons/manifest_icon_512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": "/",
+	"background_color": "#009bff",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#009bff"
 }
