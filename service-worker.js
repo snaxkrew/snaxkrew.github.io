@@ -19,6 +19,7 @@ self.addEventListener('install', function(e) {
 				'/snaxkrew/imgs/games/gw2.jpg',
 				'/snaxkrew/imgs/games/hots.png',
 				'/snaxkrew/imgs/games/lol.png',
+				'/snaxkrew/imgs/games/monster_hunter_world.png',
 				'/snaxkrew/imgs/games/overwatch.png',
 				'/snaxkrew/imgs/games/pubg.png',
 				'/snaxkrew/imgs/games/r6siege.png',
