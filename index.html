@@ -40,13 +40,14 @@
 		<!-- <link rel="stylesheet" type="text/css" media="screen" href="snaxkrew/css/countdown.css"> -->
 		<!-- <link rel="stylesheet" type="text/css" media="screen" href="snaxkrew/css/countdown.min.css"> -->
 		<script async src="snaxkrew/js/lazysizes.min.js"></script>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-101216153-1"></script>
 		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-101216153-1', 'auto');
-			ga('send', 'pageview');
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-101216153-1');
 
 			if ('serviceWorker' in navigator) {
 				console.log("Will the service worker register?");
@@ -81,7 +82,7 @@
 
 					<div class="content-box discord">
 						<h2 class="section_title">Join our voice & text chat server!</h2>
-						<a href="//discord.me/snax" target="_blank" rel="noopener" onclick="ga('send', 'event', 'buttons', 'click', 'Discord');">
+						<a href="//discord.me/snax" target="_blank" rel="noopener" onclick="gtag('event', 'click', {'event_category': 'buttons', 'event_label': 'Discord'});">
 							<img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/discord.svg" data-srcset="snaxkrew/imgs/social/discord.svg" title="Join our Discord server!" alt="Join our Discord server!"/>
 						</a>
 					</div>
@@ -135,7 +136,7 @@
 							<h2 class="section_title">Member Ranks</h2>
 							<div>
 								<input type="checkbox" class="toggle" id="punch">
-								<label for="punch" onclick="this.innerHTML=='More details' ? this.innerHTML='Hide details' : this.innerHTML='More details'; ga('send', 'event', 'buttons', 'click', 'rank_details');">More details</label>
+								<label for="punch" onclick="this.innerHTML=='More details' ? this.innerHTML='Hide details' : this.innerHTML='More details'; gtag('event', 'click', {'event_category': 'buttons', 'event_label': 'rank_details'});">More details</label>
 								
 								<section>
 									<!-- <div class="rank">
@@ -250,16 +251,16 @@
 					<div class="content-box">
 						<h2 class="section_title">Join us on</h2>
 						<section class="footer">
-							<a href="//discord.me/snax" target="_blank" rel="noopener" onclick="ga('send', 'event', 'footer', 'click', 'Discord');">
+							<a href="//discord.me/snax" target="_blank" rel="noopener" onclick="gtag('event', 'click', {'event_category': 'footer', 'event_label': 'Discord'});">
 								<img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/discord-small.svg" data-srcset="snaxkrew/imgs/social/discord-small.svg" height="60" title="Discord" alt="Discord"/>
 							</a>
-							<a href="https://twitter.com/snaxkr3w" target="_blank" rel="noopener" onclick="ga('send', 'event', 'footer', 'click', 'Twitter');">
+							<a href="https://twitter.com/snaxkr3w" target="_blank" rel="noopener" onclick="gtag('event', 'click', {'event_category': 'footer', 'event_label': 'Twitter'});">
 								<img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/twitter.svg" data-srcset="snaxkrew/imgs/social/twitter.svg" height="50" title="Twitter" alt="Twitter"/>
 							</a>
-							<a href="https://www.facebook.com/snaxgaming" target="_blank" rel="noopener" onclick="ga('send', 'event', 'footer', 'click', 'Facebook');">
+							<a href="https://www.facebook.com/snaxgaming" target="_blank" rel="noopener" onclick="gtag('event', 'click', {'event_category': 'footer', 'event_label': 'Facebook'});">
 								<img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/facebook.png" data-srcset="snaxkrew/imgs/social/facebook.png" height="50" title="Facebook" alt="Facebook"/>
 							</a>
-							<a href="https://www.youtube.com/channel/UCqE1nXJBnNuZThoeNG9618Q/videos" target="_blank" rel="noopener" onclick="ga('send', 'event', 'footer', 'click', 'Youtube');">
+							<a href="https://www.youtube.com/channel/UCqE1nXJBnNuZThoeNG9618Q/videos" target="_blank" rel="noopener" onclick="gtag('event', 'click', {'event_category': 'footer', 'event_label': 'Youtube'});">
 								<img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/youtube.png" data-srcset="snaxkrew/imgs/social/youtube.png" height="50" title="Youtube" alt="Youtube"/>
 							</a>
 						</section>
