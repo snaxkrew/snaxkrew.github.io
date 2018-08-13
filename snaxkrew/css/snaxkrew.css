@@ -202,7 +202,8 @@ form {
   background: rgba(37, 37, 37, 0.2);
 }
 
-.introduction h1 {
+.introduction h1,
+.introduction span {
   color: #ffecec;
   font-size: 15px;
   font-weight: normal;
