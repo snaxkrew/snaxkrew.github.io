@@ -1,5 +1,5 @@
 # [Snaxkrew Landing Page](https://www.snaxkrew.com "Snaxkrew")
-## Landing page for a gaming community 
+### Landing page for a gaming community 
 
 ### [Google Lighthouse Audit](https://www.snaxkrew.com/lighthouse_report.html "Snaxkrew's Google Lighthouse Audit")
 ![alt text](https://www.snaxkrew.com/lighthouse_report.png "Snaxkrew's Google Lighthouse Audit")
