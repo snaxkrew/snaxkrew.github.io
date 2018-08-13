@@ -11,7 +11,7 @@
 :heavy_check_mark: **Cross Browser** compatible;  
 :heavy_check_mark: **Google Analytics** integration;  
 :heavy_check_mark: Optimized images with **lazy loading**;  
-:heavy_check_mark: Minified JS and CSS files;  
+:heavy_check_mark: **Minified** JS and CSS files;  
 :heavy_check_mark: **Progressive Web App**;  
 :heavy_check_mark: Page **loads when offline** from cache;  
 :heavy_check_mark: Uses **HTTPS**. 
