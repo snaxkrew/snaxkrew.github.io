@@ -502,56 +502,12 @@ img.up-arrow {
   margin: 0 20px;
 }
 
-@-webkit-keyframes mxm-shadow {
-  0%   {text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);}
-  50% {text-shadow: 1px 1px 25px #335866, 0px 0px 20px #335866, 0px 0px 20px #335866;}
-  100%   {text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);}
-}
-@-moz-keyframes mxm-shadow {
-  0%   {text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);}
-  50% {text-shadow: 1px 1px 25px #335866, 0px 0px 20px #335866, 0px 0px 20px #335866;}
-  100%   {text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);}
-}
-@-o-keyframes mxm-shadow {
-  0%   {text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);}
-  50% {text-shadow: 1px 1px 25px #335866, 0px 0px 20px #335866, 0px 0px 20px #335866;}
-  100%   {text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);}
-}
-@keyframes mxm-shadow {
-  0%   {text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);}
-  50% {text-shadow: 1px 1px 25px #335866, 0px 0px 20px #335866, 0px 0px 20px #335866;}
-  100%   {text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);}
-}
-
-.content-box.mxm a {
-  margin: 0 auto;
-}
-
-.content-box.mxm img {
-  width: 100%;
-}
-
-.content-box.mxm .section_title {
-  margin: 0 0 5px;
-  font-size: 30px;
-  font-weight: normal;
-  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-  -webkit-animation: mxm-shadow 3s infinite linear;
-  -moz-animation: mxm-shadow 3s infinite linear;
-  -o-animation: mxm-shadow 3s infinite linear;
-  animation: mxm-shadow 3s infinite linear;
-}
-
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
 @media screen and (max-width: 400px) {
   .content-box.discord .section_title {
     font-size: 18px;
-  }
-  
-  .content-box.mxm .section_title {
-    font-size: 25px;
   }
 
   .logo {
@@ -603,10 +559,6 @@ Small Device Styles
 
   .games img {
     height: 70px;
-  }
-
-  .games img.mxm {
-    height: 60px;
   }
 }
 
