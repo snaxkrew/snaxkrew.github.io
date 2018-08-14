@@ -135,13 +135,13 @@
 
 					<div class="flex-wrapper prog-games">
 						<!-- PROGRESSION SYSTEM -->
-						<div id="member-ranks" class="prog-system">
+						<sections id="member-ranks" class="prog-system">
 							<h2 class="section_title">Member Ranks</h2>
 							<div>
 								<input type="checkbox" class="toggle" id="punch">
 								<label for="punch" onclick="this.innerHTML=='More details' ? this.innerHTML='Hide details' : this.innerHTML='More details'; gtag('event', 'select_content', {'event_category': 'buttons', 'event_label': 'rank_details'});">More details</label>
 								
-								<section>
+								<div class="ranks">
 									<!-- <div class="rank">
 										<div class="rank-title">
 											<img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/ranks/officer.svg" data-srcset="snaxkrew/imgs/ranks/officer.svg" height="25" title="Officer" alt="Officer"/>
@@ -224,14 +224,14 @@
 											</ul>
 										</div>
 									</div>
-								</section>
-							</div>
+								</div>
+							</section>
 						</div>
 
 						<!-- GAMES -->
-							<div id="games-we-play" class="games">
+							<section id="games-we-play" class="games">
 								<h2 class="section_title">Games we play</h2>
-								<section class="inner">
+								<div class="inner">
 										<img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/monster_hunter_world.png" data-srcset="snaxkrew/imgs/games/monster_hunter_world.png" height="80" title="Monter Hunter World" alt="Monter Hunter World"/>
 										<img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/overwatch.png" data-srcset="snaxkrew/imgs/games/overwatch.png" height="80" title="Overwatch" alt="Overwatch"/>
 										<img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/pubg.png" data-srcset="snaxkrew/imgs/games/pubg.png" height="100" title="PLAYERUNKNOWN'S BATTLEGROUNDS" alt="PLAYERUNKNOWN'S BATTLEGROUNDS"/>
@@ -249,26 +249,28 @@
 										<img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/divinity2.png" data-srcset="snaxkrew/imgs/games/divinity2.png" height="80" title="Divinity Original Sin 2" alt="Divinity Original Sin 2"/>
 										<!-- <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/gw2.jpg" data-srcset="snaxkrew/imgs/games/gw2.jpg" height="80" title="Guild Wars 2" alt="Guild Wars 2"/> -->
 										<!-- <img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/games/armello.png" data-srcset="snaxkrew/imgs/games/armello.png" height="80" title="Armello"/> -->
-								</section>
+								</div>
 							</div>
-						</div>
+						</section>
 
 					<!-- FOOTER -->
 					<div class="content-box">
-						<h2 class="section_title">Join us on</h2>
-						<section class="footer">
-							<a href="//discord.me/snax" target="_blank" rel="noopener" onclick="gtag('event', 'select_content', {'event_category': 'footer', 'event_label': 'Discord'});">
-								<img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/discord-small.svg" data-srcset="snaxkrew/imgs/social/discord-small.svg" height="60" title="Discord" alt="Discord"/>
-							</a>
-							<a href="https://twitter.com/snaxkr3w" target="_blank" rel="noopener" onclick="gtag('event', 'select_content', {'event_category': 'footer', 'event_label': 'Twitter'});">
-								<img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/twitter.svg" data-srcset="snaxkrew/imgs/social/twitter.svg" height="50" title="Twitter" alt="Twitter"/>
-							</a>
-							<a href="https://www.facebook.com/snaxgaming" target="_blank" rel="noopener" onclick="gtag('event', 'select_content', {'event_category': 'footer', 'event_label': 'Facebook'});">
-								<img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/facebook.png" data-srcset="snaxkrew/imgs/social/facebook.png" height="50" title="Facebook" alt="Facebook"/>
-							</a>
-							<a href="https://www.youtube.com/channel/UCqE1nXJBnNuZThoeNG9618Q/videos" target="_blank" rel="noopener" onclick="gtag('event', 'select_content', {'event_category': 'footer', 'event_label': 'Youtube'});">
-								<img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/youtube.png" data-srcset="snaxkrew/imgs/social/youtube.png" height="50" title="Youtube" alt="Youtube"/>
-							</a>
+						<section>
+							<h2 class="section_title">Join us on</h2>
+							<div class="footer">
+								<a href="//discord.me/snax" target="_blank" rel="noopener" onclick="gtag('event', 'select_content', {'event_category': 'footer', 'event_label': 'Discord'});">
+									<img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/discord-small.svg" data-srcset="snaxkrew/imgs/social/discord-small.svg" height="60" title="Discord" alt="Discord"/>
+								</a>
+								<a href="https://twitter.com/snaxkr3w" target="_blank" rel="noopener" onclick="gtag('event', 'select_content', {'event_category': 'footer', 'event_label': 'Twitter'});">
+									<img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/twitter.svg" data-srcset="snaxkrew/imgs/social/twitter.svg" height="50" title="Twitter" alt="Twitter"/>
+								</a>
+								<a href="https://www.facebook.com/snaxgaming" target="_blank" rel="noopener" onclick="gtag('event', 'select_content', {'event_category': 'footer', 'event_label': 'Facebook'});">
+									<img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/facebook.png" data-srcset="snaxkrew/imgs/social/facebook.png" height="50" title="Facebook" alt="Facebook"/>
+								</a>
+								<a href="https://www.youtube.com/channel/UCqE1nXJBnNuZThoeNG9618Q/videos" target="_blank" rel="noopener" onclick="gtag('event', 'select_content', {'event_category': 'footer', 'event_label': 'Youtube'});">
+									<img class="lazyload" src="snaxkrew/imgs/snaxbanner.png" data-src="snaxkrew/imgs/social/youtube.png" data-srcset="snaxkrew/imgs/social/youtube.png" height="50" title="Youtube" alt="Youtube"/>
+								</a>
+							</div>
 						</section>
 					</div>
 
