@@ -544,7 +544,9 @@ Small Device Styles
     font-size: 28px !important;
   }
 
-  .introduction h1, .flex-wrapper .snax-pros {
+  .introduction h1,
+  .introduction span,
+  .flex-wrapper .snax-pros {
     font-size: 13px !important;
   }
 
