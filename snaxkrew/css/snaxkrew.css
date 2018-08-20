@@ -50,7 +50,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5 !important;
   -webkit-font-smoothing: antialiased !important;
-  background-image: url(../imgs/grey_background.jpg) !important;
+  background-image: url("../imgs/grey_background.webp"), url(../imgs/grey_background.jpg) !important;
   background-size: cover !important;
 }
 
