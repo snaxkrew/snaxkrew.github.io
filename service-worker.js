@@ -56,7 +56,7 @@ self.addEventListener('install', function(e) {
 				'/snaxkrew/imgs/social/facebook.webp',
 				'/snaxkrew/imgs/social/facebook.png',
 				'/snaxkrew/imgs/social/twitter.svg',
-				'/snaxkrew/imgs/social/youtube.webp'
+				'/snaxkrew/imgs/social/youtube.webp',
 				'/snaxkrew/imgs/social/youtube.png'
 			]);
 
