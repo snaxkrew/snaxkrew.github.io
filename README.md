@@ -1,8 +1,8 @@
 # [Snaxkrew Landing Page](https://www.snaxkrew.com "Snaxkrew")
 ### Landing page for a gaming community 
 
-### [Google Lighthouse Audit](https://www.snaxkrew.com/lighthouse_report.html "Snaxkrew's Google Lighthouse Audit")
-![alt text](https://www.snaxkrew.com/lighthouse_report.png "Snaxkrew's Google Lighthouse Audit")
+### [Google Lighthouse Audit](https://tiagoportfolio.github.io/projects/snaxkrew/lighthouse_report.html "Snaxkrew's Google Lighthouse Audit")
+![Snaxkrew's Google Lighthouse Audit](https://tiagoportfolio.github.io/projects/snaxkrew/lighthouse_report.png "Snaxkrew's Google Lighthouse Audit")
 
 ### Why is this landing page awesome?
 
